@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.navbar {
+  border-bottom: 4px solid #103c5d;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #0e2e46;
+  transition: color 0.3s;
+}
+
+/* .navbar-toggler-icon {
+  background-color: #fff;
+} */
+
+/* Get Started Section */
+.get-started {
+  background-color: #f0f2f5;
+  padding: 50px 0;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-body .card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-body .card-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.get-started .btn {
+  background-color: #74c0fc;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.get-started .btn:hover {
+  background-color: #58a6e3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.working-process {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.working-step {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 100px 100px 100px 100px;
+}
+
+.working-step:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.working-step i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #74c0fc;
+}
+
+.working-step h3 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+#image img {
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+#image img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fa-bounce {
+  animation: bounce 1.5s infinite;
+}
+
+.get-started {
+  background: linear-gradient(to right, #2a7fff, #00d4ff);
+  text-align: center;
+  padding: 100px 20px;
+}
